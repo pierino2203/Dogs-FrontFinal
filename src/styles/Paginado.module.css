@@ -1,0 +1,24 @@
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(247, 228, 144, 1);
+}
+.paginado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  }
+  .paginado li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    border: 0.5px solid;
+    font-weight: bold;
+  }

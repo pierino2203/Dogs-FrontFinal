@@ -1,0 +1,35 @@
+.contenedor{
+  border: solid;
+  background-color: rgba(247, 228, 144, 1);
+  margin: 18px 160px;
+}
+.title{
+  font-size: 3rem;
+}
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.campos {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px;
+  margin-top: 0px;
+}
+.danger{
+  font-size: 10px;
+  margin-top: 0px;
+
+}
+.temp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}

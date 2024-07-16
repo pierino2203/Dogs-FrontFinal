@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid;
+  text-decoration: none;
+  color: inherit; 
+  cursor: pointer; 
+}
+.card a{
+  text-decoration: none;
+  color: black;
+}
+
+.lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 90%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: inherit;
+  width: 100%; /* Ensure the link takes up the full card width */
+  display: block; /* Make the link behave like a block element */
+}
+
+.conteinerPaginado {
+  border: solid;
+  width: 30%;
+  background-color: rgba(247, 228, 144, 1);
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 576px) {
+  .conteinerPaginado {
+    width: 80%;
+  }
+}

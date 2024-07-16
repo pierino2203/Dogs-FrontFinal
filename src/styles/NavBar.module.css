@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  background-color: #e7ae38;
+  width: 100%;
+
+}
+
+.listNav {
+  list-style: none;
+  margin-right: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.listNav a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.listContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+
+.conteiner {
+  display: flex;
+  width: 34%;
+}
+
+.button {
+  background-color: rgba(247, 228, 144, 1);
+  cursor: pointer;
+}
+
+.listNav:hover {
+  background-color: #f5e2a4;
+  color: #3c3d15bb;
+}
+
+.logo {
+  width: 62px;
+  margin: 2px 23px;
+}
+
+@media (max-width: 576px) {
+  .listNav {
+    display: none;
+  }
+}

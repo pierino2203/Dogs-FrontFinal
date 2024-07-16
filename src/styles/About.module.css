@@ -1,0 +1,28 @@
+.caja{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contenedor{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(247, 228, 144, 1);
+  width: 80%;
+  margin-top: 10px;
+}
+.contenedor h1{
+  text-decoration: underline;
+  font-weight: 900;
+}
+.contenedor p{
+  font-size: 20px;
+}
+.contenedor li {
+  list-style: none;
+  line-height: 30px;
+}
